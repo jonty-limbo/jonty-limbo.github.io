@@ -35,3 +35,15 @@ main {
     margin-top:5px;
     text-align: center;
 }
+
+@media screen and (min-width: 600px) {
+    #world-image {
+        width: 500px;
+    }   
+}
+
+@media print {
+    header {
+        display: none;
+    }
+}
